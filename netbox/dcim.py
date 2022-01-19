@@ -634,6 +634,14 @@ class Dcim(object):
         """
         return self.netbox_con.get('/dcim/interface-connections/', **kwargs)
 
+    def get_cables(self, **kwargs):
+        """Get cables
+
+        :param kwargs: Filter arguments
+        :return: list of cables
+        """
+        return self.netbox_con.get('/dcim/cables/', **kwargs)
+
     def create_interface_connection(self, termination_a_id, termination_b_id, termination_a_type, termination_b_type, **kwargs):
         """Create a new interface-connection
 
