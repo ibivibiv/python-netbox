@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="9">
+            <item index="0" class="java.lang.String" itemvalue="pytorch-lightning" />
+            <item index="1" class="java.lang.String" itemvalue="pycurl" />
+            <item index="2" class="java.lang.String" itemvalue="tensorflow-serving-api" />
+            <item index="3" class="java.lang.String" itemvalue="tensorflow-cpu" />
+            <item index="4" class="java.lang.String" itemvalue="pygobject" />
+            <item index="5" class="java.lang.String" itemvalue="python-apt" />
+            <item index="6" class="java.lang.String" itemvalue="unattended-upgrades" />
+            <item index="7" class="java.lang.String" itemvalue="google-compute-engine" />
+            <item index="8" class="java.lang.String" itemvalue="distro-info" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyStubPackagesAdvertiser" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="pika-stubs==0.1.3" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
